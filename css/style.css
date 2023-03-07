@@ -1,0 +1,275 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+    background-color: rgba(128, 128, 128, 0.712);
+    overflow-x: hidden;
+}
+.wrapper {
+	min-height: 100%;
+  font-family: 'Roboto';
+}
+
+.machine-body{
+  margin: 500px auto;
+  width: 478px;
+    height: 215px;
+    position: relative;
+}
+
+.machine {
+  width: 400px;
+  height: 20px;
+    border: 3px solid black;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.machine-line5 {
+  width: 40px;
+    border: 3px solid black;
+    position: absolute;
+    top: 15px;
+    left: -180px;
+    border-radius: 10px;
+}
+.machine-line6 {
+  width:140px;
+    border: 3px solid black;
+    position: absolute;
+    top: -61px;
+    right:  -254px;
+    border-radius: 10%;
+    transform: rotate(90deg);
+    
+}
+.machine-line7 {
+  width: 140px;
+  border: 3px solid black;
+  position: absolute;
+  top: -55px;
+  left: -251px;
+  border-radius: 10px;
+  transform: rotate(90deg);
+
+}
+.machine-line8 {
+  width: 40px;
+  border: 3px solid black;
+  position: absolute;
+  top: 11px;
+  right: -183px;
+  border-radius: 10px;
+}
+.machine-line9 { width: 140px;
+  border: 3px solid black;
+  position: absolute;
+  top: -153px;
+  left: -185px;
+  border-radius: 10px;
+  transform: rotate(-20deg);
+}
+
+
+
+.machine-line10{
+  width: 279px;
+  border: 3px solid black;
+  position: absolute;
+  top: -132px;
+  right: -183px;
+  border-radius: 10px;
+}
+
+.machine-line11 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: -118px;
+  right: -164px;
+}
+
+
+.wheel-left {
+  height: 140px;
+    width: 140px;
+    border-top: 15px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -80px;
+    left: -139px;
+    margin: 0px 308px 0px 0px ;
+}
+
+.wheel-right {
+  height: 140px;
+    width: 140px;
+    border-top: 15px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -80px;
+    right: 95px;
+    margin: 0px -235px 0px 0px ;
+}
+
+
+
+
+
+.window-line{
+  width: 100px;
+    height: 140px;
+    border-left: 3px solid black;
+    border-radius: 10%;
+    position: absolute;
+    top: -280px;
+    left: 47px;
+    transform: rotate(30deg);
+}
+
+.window-line2{
+  width: 100px;
+    height: 140px;
+    border-left: 3px solid black;
+    border-radius: 10%;
+    position: absolute;
+    top: -312px;
+    left: 104px;
+    transform: rotate(90deg);
+}
+
+.window-line3{
+  width: 220px;
+    border: 2px solid black;
+    position: absolute;
+    top: -209px;
+    left: 187px;
+    border-radius: 10px;
+    transform: rotate(47deg);
+}
+
+.headlight-krug{
+  height: 130px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 115px;
+  left: -62px;
+}
+
+.headlight-krug1{
+  height: 70px;
+  width: 70px;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 140px;
+  left: -40px;
+}
+
+.headlight-krug2{
+  height: 130px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 115px;
+  right: -130px;
+}
+
+.headlight-krug3{
+  height: 70px;
+  width: 70px;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 138px;
+  right:  -107px;
+}
+
+.headlight-krug4{
+  width: 200px;
+  height: 65px;
+    border: 3px solid black;
+    position: absolute;
+    top: -219px;
+    left: 67px;
+    border-radius: 10px;
+}
